@@ -1,16 +1,81 @@
 /*created by yancey qq:1352667433*/
-
+body{
+	font-size: 12px;
+}
+.ml10{
+	margin-left:10px;
+}
+.ml20{
+	margin-right:20px;
+}
+.mr10{
+	margin-right: 10px;
+}
+.mr20{
+	margin-right:20px;
+}
 /*header*/
+#header{
+	font-size: 12px;
+}
+#header .dropdown-menu{
+	min-width: 81px;
+}
 
 /*top*/
 #top{
 	padding:10px;
+	font-size:12px;
 }
 #top form{
 	margin-top: 12px;
 }
 
-#top .g-form{
-	height
-	background:url(../img/search.png) no-repeat 0 0;
+#search .form-group{
+	position: relative;
 }
+#search input{
+	border-radius: 0;
+	border:1px solid #ffd102;
+}
+#search button{
+	width: 80px;
+	height:32px;
+	border-radius: 0;
+	background:#ffd102 url(../img/search.png) no-repeat 30px 5px;
+	border: medium none;
+  direction: ltr;
+  padding: 0;
+  position: absolute;
+  top: 1px;
+  right:0;
+  outline: none;
+}
+
+/*center navbar*/
+.g-navbar{
+	background:#ffd102;
+	font-size:14px;
+}
+.g-navbar a{
+	outline: none;
+}
+
+/*content*/
+.piece{
+	background:#f4f4f4;
+	padding:10px 10px;
+}
+
+.section{
+	background:gray;
+	border:1px solid #000;
+}
+
+
+
+
+
+
+
+
