@@ -1,6 +1,10 @@
 /*created by yancey qq:1352667433*/
+*{
+	outline: none !important;
+}
 body{
 	font-size: 12px;
+	height:100%;
 }
 .ml10{
 	margin-left:10px;
@@ -62,6 +66,15 @@ body{
 }
 
 /*content*/
+#content{
+	padding-bottom: 25px;
+	position: relative;
+	min-height: 300px;
+	width: auto;
+}
+#content .nav-tabs li a{
+	border-radius: 0;
+}
 .piece{
 	background:#f4f4f4;
 	padding:10px 10px;
@@ -70,6 +83,63 @@ body{
 .section{
 	background:gray;
 	border:1px solid #000;
+}
+
+/*login*/
+#login .form{
+	position: relative;
+}
+#login .form .form-group{
+	margin-bottom: 10px;
+}
+#login .form .form-group:nth-of-type(1){
+	margin-top: 10px;
+}
+#login .form .form-group input{
+	border-radius: 0;
+}
+#login .form .sub button{
+	width:100%;
+	display: block;
+	background: #ffd102;
+	border:none;
+	border-radius: 0;
+	color:#000;
+}
+#code{
+	position: absolute;
+	right:-80px;
+	top:4px;
+	border:none;
+	height:24px;
+	background:#ffd102;
+}
+
+/*footer*/
+#footer{
+	min-height:144px;
+	background:#282828;
+	padding-top: 84px;
+}
+#footer .link{
+
+}
+#footer ul{
+	padding:0;
+}
+#footer ul li{
+	list-style: none;
+	float:left;
+	margin-right: 6px;
+	padding-right: 6px;
+	border-right:1px solid #7d7d7d;
+}
+#footer ul>li>a{
+	color:#7d7d7d;
+}
+#footer p{
+	float: left;
+	color:#7d7d7d;
 }
 
 
