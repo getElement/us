@@ -1,8 +1,9 @@
 /*created by yancey qq:1352667433*/
+/*public styles*/
 *{
 	outline: none !important;
 }
-body{
+html,body{
 	font-size: 12px;
 	height:100%;
 }
@@ -18,18 +19,24 @@ body{
 .mr20{
 	margin-right:20px;
 }
+.col1{
+	color:#ffd102;
+}
 /*header*/
 #header{
 	font-size: 12px;
+	position: relative;
 }
 #header .dropdown-menu{
 	min-width: 81px;
+	font-size: 12px;
 }
 
 /*top*/
 #top{
-	padding:10px;
+	padding:10px 0;
 	font-size:12px;
+	position: relative;
 }
 #top form{
 	margin-top: 12px;
@@ -69,7 +76,7 @@ body{
 #content{
 	padding-bottom: 25px;
 	position: relative;
-	min-height: 300px;
+	min-height: 50%;
 	width: auto;
 }
 #content .nav-tabs li a{
@@ -81,8 +88,7 @@ body{
 }
 
 .section{
-	background:gray;
-	border:1px solid #000;
+	background:#f4f4f4;
 }
 
 /*login*/
@@ -99,6 +105,7 @@ body{
 	border-radius: 0;
 }
 #login .form .sub button{
+	min-height:44px;
 	width:100%;
 	display: block;
 	background: #ffd102;
@@ -109,9 +116,9 @@ body{
 #code{
 	position: absolute;
 	right:-80px;
-	top:4px;
+	top:0;
 	border:none;
-	height:24px;
+	height:32px;
 	background:#ffd102;
 }
 
@@ -120,9 +127,6 @@ body{
 	min-height:144px;
 	background:#282828;
 	padding-top: 84px;
-}
-#footer .link{
-
 }
 #footer ul{
 	padding:0;

@@ -29,7 +29,7 @@
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">登录</a></li>
-          <li><a href="#">免费注册</a></li>
+          <li><a href="#"><span class="col1">免费注册</span></a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">个人中心<b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -56,21 +56,34 @@
   <!-- top end -->
 
   <!-- content start-->
-  <div id="content" class="container">
-    <div class="col-xs-3 col-sm-3 col-md-3 col-md-offset-6 col-lg-3">
+  <div id="content">
+    <div class="col-xs-9 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-6 col-lg-3">
       <div role="tabpanel" id="login">
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
               <li role="presentation" class="active">
-                  <a href="#home" aria-controls="home" role="tab" data-toggle="tab">登录</a>
+                  <a href="#log" aria-controls="log" role="tab" data-toggle="tab">登录</a>
               </li>
               <li role="presentation">
-                  <a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">注册</a>
+                  <a href="#reg" aria-controls="reg" role="tab" data-toggle="tab">注册</a>
               </li>
           </ul>
           <!-- Tab panes -->
           <div class="tab-content">
-              <div role="tabpanel" class="tab-pane active" id="home">
+              <div role="tabpanel" class="tab-pane active" id="log">
+                <form action="" method="POST" role="form" class="form">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="" placeholder="用户名">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" id="" placeholder="密码">
+                  </div>
+                  <div class="sub">
+                    <button type="submit" class="btn btn-primary">登录</button>
+                  </div>
+                </form>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="reg">
                 <form action="" method="POST" role="form" class="form">           
                   <div class="form-group">
                     <input type="text" class="form-control" id="" placeholder="手机号码">
@@ -87,7 +100,6 @@
                   </div>
                 </form>
               </div>
-              <div role="tabpanel" class="tab-pane" id="tab">...</div>
           </div>
       </div>
     </div>
@@ -95,8 +107,8 @@
   <!-- content end -->
 
   <!--Footer-part-->
-  <div class="text-center" id="footer">
-    <div class="container link text-center">
+  <div id="footer">
+    <div class="container link">
       <ul class="clearfix">
         <li><a href="#">返回首页</a></li>
         <li><a href="#">关于我们</a></li>
