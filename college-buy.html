@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>登录</title>
+  <title></title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/us.css" />
@@ -52,57 +52,71 @@
     <div class="col-md-4 col-md-offset-4 text-center">
       <h1>LOGO</h1>      
     </div>
+    <form id="search" action="" method="POST" role="form" class="form col-sm-4 col-md-3">
+      <div class="form-group">
+        <input type="text" class="form-control" id="" placeholder="点击查询">
+        <button type="submit" class="btn btn-primary"></button>
+      </div>
+    </form>
   </div>
   <!-- top end -->
+  
+  <!-- navbar start -->
+  <nav class="navbar navbar-default g-navbar" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex2-collapse">
+        <span class="sr-only">US校园</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+  
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex2-collapse">
+      <div class="container">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">校园生活</a></li>
+          <li><a href="#">校园易购</a></li>
+          <li><a href="#">校园周边</a></li>
+          <li><a href="#">留言墙</a></li>
+        </ul>
+      </div>
+    </div><!-- /.navbar-collapse -->
+  </nav>
+  <!-- navbar end -->
 
   <!-- content start-->
-  <div id="content" class="clearfix">
-    <div class="col-xs-9 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-6 col-lg-3">
-      <div role="tabpanel" id="login">
-          <!-- Nav tabs -->
-          <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation" class="active">
-                  <a href="#log" aria-controls="log" role="tab" data-toggle="tab">登录</a>
-              </li>
-              <li role="presentation">
-                  <a href="#reg" aria-controls="reg" role="tab" data-toggle="tab">注册</a>
-              </li>
-          </ul>
-          <!-- Tab panes -->
-          <div class="tab-content">
-              <div role="tabpanel" class="tab-pane active" id="log">
-                <form action="" method="POST" role="form" class="form">
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="" placeholder="用户名">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" id="" placeholder="密码">
-                  </div>
-                  <div class="sub">
-                    <button type="submit" class="btn btn-primary">登录</button>
-                  </div>
-                </form>
-              </div>
-              <div role="tabpanel" class="tab-pane" id="reg">
-                <form action="" method="POST" role="form" class="form">           
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="" placeholder="手机号码">
-                    <button type="" id="code">获取验证码</button>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="" placeholder="验证码">
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="" placeholder="用户ID">
-                  </div>
-                  <div class="sub">
-                    <button type="submit" class="btn btn-primary">立即注册</button>
-                  </div>
-                </form>
-              </div>
-          </div>
+  <div class="container g-content">
+    <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+    
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#">首页</a></li>
+          <li class="bg1"><a href="#">闲互送</a></li>
+          <li><a href="#">闲互送</a></li>
+          <li><a href="#">聚便宜</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+    <div id="content" class="clearfix">
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 ">
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       </div>
     </div>
+
   </div>
   <!-- content end -->
 

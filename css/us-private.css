@@ -22,6 +22,9 @@ html,body{
 .col1{
 	color:#ffd102;
 }
+.bg1{
+	background:#ffd102;
+}
 /*header*/
 #header{
 	font-size: 12px;
@@ -67,17 +70,19 @@ html,body{
 .g-navbar{
 	background:#ffd102;
 	font-size:14px;
+	margin-bottom: 0;
 }
 .g-navbar a{
 	outline: none;
 }
 
-/*content*/
+/*content-login*/
 #content{
-	padding-bottom: 25px;
+	padding: 25px 0;
 	position: relative;
 	min-height: 50%;
 	width: auto;
+	background: #fff;
 }
 #content .nav-tabs li a{
 	border-radius: 0;
@@ -89,6 +94,14 @@ html,body{
 
 .section{
 	background:#f4f4f4;
+}
+/*content message*/
+.g-content{
+	background:#f8f8f8;
+}
+.g-content .navbar{
+	margin-top: 5px;
+	border:0;
 }
 
 /*login*/
