@@ -3,6 +3,9 @@
 *{
 	outline: none !important;
 }
+li{
+	list-style: none;
+}
 html,body{
 	font-size: 12px;
 	height:100%;
@@ -78,32 +81,82 @@ html,body{
 
 /*content-login*/
 #content{
-	padding: 25px 0;
+	padding: 10px 0;
 	position: relative;
 	min-height: 50%;
 	width: auto;
-	background: #fff;
+	background: #f8f8f8;
 }
 #content .nav-tabs li a{
 	border-radius: 0;
+}
+#content .navbar{
+	margin-top: 5px;
+	border:0;	
 }
 .piece{
 	background:#f4f4f4;
 	padding:10px 10px;
 }
 
-.section{
-	background:#f4f4f4;
-}
 /*content message*/
 .g-content{
-	background:#f8f8f8;
+	background:#fff;
 }
-.g-content .navbar{
-	margin-top: 5px;
-	border:0;
+.g-content-left{
+	border-right: 1px solid #eaeaea;
 }
-
+.section{
+	padding:10px;
+	border-bottom: 1px solid #eaeaea;
+}
+.section .goods-img{}
+.section .goods-img a{
+	border-radius: 0;
+	display: inline-block;
+}
+.section p{}
+.section span{}
+.section span img{
+	margin-right: 8px;
+}
+.section .grab-time{
+	display: inline-block;
+	margin-left:12px;
+}
+.section .grab-time strong{
+	font-weight: normal;
+}
+.section .grab{
+	margin-right: 10px;
+	border-radius: 0;
+	border: none;
+	background: #ffd102;
+}
+.share{
+	margin-top: 40px;
+}
+.share li{
+	min-width:34px;
+	min-height: 30px;
+	margin-left: 24px;
+	float:left;
+	background:url(../img/media.png) no-repeat;
+	background-position: top 0;
+}
+.option .pick{
+	display: inline-block;
+	background: #ffd102;
+	border-radius: 0;
+	border:none;
+}
+.option .pick-time{
+	display: inline-block;
+	padding:6px 0;
+}
+.option .pick-time span{
+	margin-left:10px;
+}
 /*login*/
 #login .form{
 	position: relative;
