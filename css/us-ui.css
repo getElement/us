@@ -26,7 +26,7 @@
 .nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
-    background-color: #eee
+    background-color: #ffa703
 }
 
 .nav>li.disabled>a {
@@ -642,7 +642,7 @@
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
     color: #555;
-    background-color: #e7e7e7
+    background-color: #ffa703
 }
 
 .navbar-default .navbar-nav>.disabled>a,
@@ -3550,4 +3550,38 @@ button.list-group-item-danger.active:hover {
     .carousel-indicators {
         bottom: 20px
     }
+}
+
+/*us-pop*/
+.us-pop{
+    border: 1px solid #ffdb3b;
+    min-height: 200px;
+    padding: 20px;
+    padding-bottom: 42px;
+    position: relative;
+}
+.us-pop h4{
+    border-bottom: 1px solid #000;
+}
+.us-pop .us-pop-main{
+    margin-top: 5px;
+}
+.us-pop a{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+/*us-btn*/
+.us-btn{
+    background:#ffd102;
+    border:none;
+    margin: 10px 0;
+}
+
+.us-btn:hover{
+    background:#ffd102;
+}
+.us-btn:focus{
+    background:#ffd102;
 }
