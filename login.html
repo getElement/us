@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/us.css" />
   <link rel="stylesheet" href="css/us-ui.css" />
-  <link rel="stylesheet" href="css/us-private.css" />
+  <link rel="stylesheet" href="css/us-font.css" />
+  <link rel="stylesheet" href="css/us-login.css" />
   <link rel="stylesheet" href="font-awesome/css/font-awesome.css"/>
 
 </head>
@@ -57,52 +58,61 @@
 
   <!-- content start-->
   <div id="content" class="clearfix">
-    <div class="col-xs-9 col-sm-6 col-sm-offset-3 col-md-3 col-md-offset-6 col-lg-3">
-      <div role="tabpanel" id="login">
-          <!-- Nav tabs -->
-          <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation" class="active">
-                  <a href="#log" aria-controls="log" role="tab" data-toggle="tab">登录</a>
-              </li>
-              <li role="presentation">
-                  <a href="#reg" aria-controls="reg" role="tab" data-toggle="tab">注册</a>
-              </li>
-          </ul>
-          <!-- Tab panes -->
-          <div class="tab-content">
-              <div role="tabpanel" class="tab-pane active" id="log">
-                <form action="" method="POST" role="form" class="form">
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="" placeholder="用户名">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" id="" placeholder="密码">
-                  </div>
-                  <div class="sub">
-                    <button type="submit" class="btn btn-primary">登录</button>
-                  </div>
-                </form>
-              </div>
-              <div role="tabpanel" class="tab-pane" id="reg">
-                <form action="" method="POST" role="form" class="form">           
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="" placeholder="手机号码">
-                    <button type="" id="code">获取验证码</button>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="" placeholder="验证码">
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="" placeholder="用户ID">
-                  </div>
-                  <div class="sub">
-                    <button type="submit" class="btn btn-primary">立即注册</button>
-                  </div>
-                </form>
-              </div>
-          </div>
+    <div class="container">
+      <div class="row">
+         <div class="col-xs-12 col-sm-3 col-sm-offset-1 col-md-4 col-md-offset-1 col-lg-4" style="background:#f4f4f4; height:200px; margin-top: 30px;">
+           
+         </div>
+         <div class="col-xs-12 col-sm-6 col-sm-offset-2 col-md-4 col-md-offset-2 col-lg-4">
+           <div role="tabpanel" id="login">
+               <!-- Nav tabs -->
+               <ul class="nav nav-tabs" role="tablist">
+                   <li role="presentation" class="active">
+                       <a href="#log" aria-controls="log" role="tab" data-toggle="tab">登录</a>
+                   </li>
+                   <li role="presentation">
+                       <a href="#reg" aria-controls="reg" role="tab" data-toggle="tab">注册</a>
+                   </li>
+               </ul>
+               <!-- Tab panes -->
+               <div class="tab-content">
+                   <div role="tabpanel" class="tab-pane active" id="log">
+                     <form action="" method="POST" role="form" class="form">
+                       <div class="form-group">
+                         <input type="text" class="form-control" id="" placeholder="用户名">
+                       </div>
+                       <div class="form-group">
+                         <input type="password" class="form-control" id="" placeholder="密码">
+                       </div>
+                       <div class="sub">
+                         <button type="submit" class="btn btn-primary">登录</button>
+                       </div>
+                     </form>
+                   </div>
+                   <div role="tabpanel" class="tab-pane" id="reg">
+                     <form action="" method="POST" role="form" class="form">           
+                       <div class="form-group">
+                         <input type="text" class="form-control" id="" placeholder="手机号码">
+                         <button type="" id="code">获取验证码</button>
+                       </div>
+                       <div class="form-group">
+                         <input type="text" class="form-control" id="" placeholder="验证码">
+                       </div>
+                       <div class="form-group">
+                         <input type="text" class="form-control" id="" placeholder="用户ID">
+                       </div>
+                       <div class="sub">
+                         <button type="submit" class="btn btn-primary">立即注册</button>
+                       </div>
+                     </form>
+                   </div>
+               </div>
+           </div>
+         </div> 
+        </div>
       </div>
-    </div>
+
+
   </div>
   <!-- content end -->
 

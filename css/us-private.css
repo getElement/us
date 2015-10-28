@@ -37,7 +37,7 @@ html,body{
 	color:#ffd102;
 }
 .bg1{
-	background:#ffd102;
+	background:#c6f5c4;
 }
 .active{
 	background:#ffa703;
@@ -52,8 +52,23 @@ html,body{
 	min-width: 81px;
 	font-size: 12px;
 }
+#header .navbar-brand {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	height:20px;
+}
 #header .navbar{
 	margin-bottom: 0;
+	min-height: 0;
+	min-height:32px;
+}
+#header .navbar-nav > li > a{
+	padding-top:4px;
+	padding-bottom:4px;
+}
+#header .navbar-toggle {
+	padding:4px;
+	margin-top: 4px;
 }
 /*top*/
 #top{
@@ -95,6 +110,9 @@ html,body{
 	position: relative;
 	border-bottom: none;
 }
+.navbar .active{
+	background:#ffa703;
+}
 .g-navbar a{
 	outline: none;
 }
@@ -103,6 +121,15 @@ html,body{
 }
 .g-navbar-s{
 	margin-bottom: 0;
+	background:#f4f4f4;
+	border:none;
+}
+.g-navbar-s .g-nav{
+	background: #fff;
+}
+.g-navbar-s .g-nav {
+	border:1px solid #ccc;
+	border-top: none;
 }
 /*login*/
 #login .form{
@@ -143,6 +170,7 @@ html,body{
 	position: relative;
 	min-height: 100%;
 	background:#fff;
+	border:1px solid #ccc;
 }
 #content .nav-tabs li a{
 	border-radius: 0;
@@ -160,6 +188,12 @@ html,body{
 	border-right: 1px solid #eaeaea;
 	position: relative;
 }
+@media(max-width: 768px;){
+	.g-content-r{
+		margin-top: 20px;
+	}
+}
+
 .g-post{
 	position: absolute;
 	right:15px;
@@ -204,8 +238,18 @@ html,body{
 	border: none;
 	background: #ffd102;
 }
+/*模块*/
 .g-section{
 	min-height:256px;
+	background:#f4f4f4;
+}
+@media(max-width: 768px){
+	.section-m{
+		margin-top: 10px;
+	}
+}
+.section-s{
+	min-height: 200px;
 	background:#f4f4f4;
 }
 .note-left{
@@ -213,11 +257,11 @@ html,body{
 }
 .note-left .users{
 	padding-top: 20px;
-	padding-left: 20px;
+	padding-left: 28.57%;
 }
 .note-left .users li{
 	width:38px;
-	height:81px;
+	height:100px;
 	margin-bottom:20px; 
 	position: relative;
 }
@@ -225,10 +269,25 @@ html,body{
 	position: absolute;
 	display: block;
 	left:0;
-	top:12px;
+	top:21px;
 	width:38px;
 	height:38px;
-	background:#f4f4f4;
+	background:#f6f6f6;
+}
+@media (max-width:768px){
+	.g-content-left{
+		border-right: none;
+		position: relative;
+	}
+	.note-left .users li a{
+		position: absolute;
+		display: block;
+		left:-30px;
+		top:16px;
+		width:38px;
+		height:38px;
+		background:#f6f6f6;
+	}
 }
 .note-right .notes{
 	padding-top: 20px;
@@ -265,8 +324,7 @@ html,body{
 	border-color: transparent #f4f4f4 transparent transparent; 
 }
 .note-right .notes .msg div{
-	width:60%;
-	height:64px;
+	height:100px;
 	background:#f4f4f4;
 }
 .note-right .notes .msg{}
@@ -275,6 +333,11 @@ html,body{
 	padding-left: 30px;
 	padding-right: 58px;
 	cursor: pointer;
+}
+.note-right .notes .msg .timer{
+	position: absolute;
+	bottom: 0;
+	left:5%;
 }
 .g-content-right .board-list li:hover{
 	background:#f5f5f5;

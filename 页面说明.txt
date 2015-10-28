@@ -1,0 +1,19 @@
+/*US网站页面说明*/
+
+model.html			模板文件
+
+college-life.html		校园生活
+college-life-filee.html 	校园生活分级页面
+college-buy.html		校园易购页面
+college-round.html		校园周边
+srd-activity.html		有活动
+srd-business.html		口碑商
+srd-easy.html			便生活
+feedback.html			回馈
+login.html			注册登录
+message.html			信息聚合
+index.html			主页
+note.html			留言墙
+pop.html			弹出层
+person.html			个人中心
+
