@@ -5,4 +5,12 @@
 
 */
 
-/*提示弹出框*/
+$(function(){
+
+			/*评论框宽度*/
+			var $offsetW = $('.critic-content .user').width() + 30;
+			var $criticW = $('.critic-content .option').width();
+			$('.critic .msg').outerWidth($criticW-$offsetW);
+			console.log($offsetW);
+	
+});

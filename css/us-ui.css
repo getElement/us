@@ -658,7 +658,7 @@
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background-color: #ddd
+    /* background-color: #ddd */
 }
 
 .navbar-default .navbar-toggle .icon-bar {

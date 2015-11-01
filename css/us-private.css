@@ -20,6 +20,7 @@ html,body{
 }
 .navbar{
 	border-radius: 0;
+	min-height: 40px;
 }
 .ml10{
 	margin-left:10px;
@@ -37,7 +38,7 @@ html,body{
 	color:#ffd102;
 }
 .bg1{
-	background:#c6f5c4;
+	background:#eee;
 }
 .active{
 	background:#ffa703;
@@ -115,6 +116,13 @@ html,body{
 .navbar .active{
 	background:#ffa703;
 }
+@media (min-width: 768px){
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
 .g-navbar a{
 	outline: none;
 }
@@ -136,9 +144,9 @@ html,body{
 
 /*content-login*/
 #content{
-	margin-top: 10px;
-	padding-top: 10px;
+	padding-top:10px;
 	padding-bottom: 10px;
+	margin-top: 10px;
 	position: relative;
 	min-height: 100%;
 	background:#fff;
@@ -172,6 +180,7 @@ html,body{
 	top:10px;
 	z-index:2;
 }
+/*section*/
 .section{
 	border-bottom:1px solid #eaeaea;
 	padding-bottom: 10px;
@@ -181,7 +190,11 @@ html,body{
 	border-radius: 0;
 }
 .section .aiticle-title{
-	margin:10px 0;
+	margin:10px 15px;
+}
+.section .big-img{
+	width:100%;
+	height:100px;
 }
 .section .ifo span{}
 .section .ifo strong{
@@ -190,6 +203,10 @@ html,body{
 }
 .section .ifo em{
 	color:#ffd102;
+	margin-left: 5px;
+}
+.section .ifo a{
+	display: inline-block;
 	margin-left: 5px;
 }
 .section span img{
@@ -314,6 +331,8 @@ html,body{
 }
 .critic .critic-write textarea{
 	border-radius: 0;
+	width:100%;
+	resize: none; 
 }
 .critic .critic-num{
 	margin-bottom: 0;
@@ -334,7 +353,6 @@ html,body{
 }
 .critic .critic-content .msg{
 	position: relative;
-	width:80%;
 	float:left;
 	padding:10px 12px;
 	border: 1px solid #f4f4f4;
@@ -406,6 +424,11 @@ html,body{
 .option{
 	padding-bottom: 10px;
 	border-bottom:1px solid #eaeaea;
+}
+.option .widget-title{
+	background:#f3f3f3;
+	border-left: 10px solid #e9e9e9;
+	padding: 6px 0 6px 6px;
 }
 .option .user{
 	margin-right: 20px;
