@@ -151,6 +151,14 @@ html,body{
 	border-radius: 0;
 }
 
+#content .passwords .checkbox{
+	display: inline-block;
+}
+#content .passwords .forget{
+	float:right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 /*footer*/
 #footer{
 	min-height:144px;
