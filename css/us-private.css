@@ -14,6 +14,10 @@ html,body{
 	font-size: 12px;
 	height:100%;
 	background: #f4f4f4;
+	font-family: "微软雅黑";
+}
+p{
+	line-height: 20px;
 }
 .btn{
 	border-radius: 0;
@@ -21,6 +25,9 @@ html,body{
 .navbar{
 	border-radius: 0;
 	min-height: 40px;
+}
+.breadcrumb{
+	border-radius:0;
 }
 .ml10{
 	margin-left:10px;
@@ -61,7 +68,7 @@ html,body{
 #header .navbar{
 	margin-bottom: 0;
 	min-height: 0;
-	min-height:32px;
+	min-height:28px;
 	border:none;
 	border-bottom: 1px solid #ddd;
 }
@@ -82,6 +89,7 @@ html,body{
 }
 #top form{
 	margin-top: 20px;
+	padding-right:0;
 }
 
 #search .form-group{
@@ -90,6 +98,7 @@ html,body{
 #search input{
 	border-radius: 0;
 	border:1px solid #ffd102;
+	padding-right: 86px;
 }
 #search button{
 	width: 80px;
@@ -144,13 +153,14 @@ html,body{
 
 /*content-login*/
 #content{
-	padding-top:10px;
-	padding-bottom: 10px;
-	margin-top: 10px;
+	padding-top:15px;
+	padding-bottom: 15px;
+	margin-top: 15px;
 	position: relative;
 	min-height: 100%;
 	background:#fff;
 	border:1px solid #ddd;
+	border-bottom: none;
 }
 #content .nav-tabs li a{
 	border-radius: 0;
@@ -356,6 +366,7 @@ html,body{
 	float:left;
 	padding:10px 12px;
 	border: 1px solid #f4f4f4;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 .critic .critic-content .msg span{
 	margin-right: 10px;
@@ -425,10 +436,14 @@ html,body{
 	padding-bottom: 10px;
 	border-bottom:1px solid #eaeaea;
 }
+.option:first-child{
+	margin-top: 40px;
+}
 .option .widget-title{
 	background:#f3f3f3;
 	border-left: 10px solid #e9e9e9;
-	padding: 6px 0 6px 6px;
+	padding: 8px 0 8px 8px;
+	line-height: 
 }
 .option .user{
 	margin-right: 20px;
