@@ -178,6 +178,12 @@ p{
 	border-right: 1px solid #eaeaea;
 	position: relative;
 }
+@media(max-width: 992px){
+	.g-content-left{
+		border-right: none;
+		position: relative;
+	}
+}
 @media(max-width: 768px;){
 	.g-content-r{
 		margin-top: 20px;
@@ -420,7 +426,7 @@ p{
 }
 
 .share{
-	margin-top: 40px;
+	margin: 40px 0;
 	padding-left: 40px;
 }
 .share li{
@@ -435,9 +441,6 @@ p{
 .option{
 	padding-bottom: 10px;
 	border-bottom:1px solid #eaeaea;
-}
-.option:first-child{
-	margin-top: 40px;
 }
 .option .widget-title{
 	background:#f3f3f3;
