@@ -9,16 +9,16 @@ college-life-wind.html 		校园风云	完成
 college-life-joke		校园八卦	完成
 college-life-msg		校园资讯	完成
 college-buy.html		校园易购页面	完成
-college-buy-gather		聚福利
-college-buy-give		闲互送
+college-buy-gather		聚福利		完成
+college-buy-give		闲互送		完成
 college-round.html		校园周边	完成
 srd-activity.html		有活动		完成
 srd-business.html		口碑商		完成
 srd-easy.html			便生活		完成
-feedback.html			回馈
+feedback.html			回馈		完成
 login.html			注册登录	完成
-index.html			主页
-note.html			留言墙	
-pop.html			弹出层	
+index.html			主页		
+note.html			留言墙		
+pop.html			弹出层		完成
 person.html			个人中心
 article-detatil.html		文章详情	完成	
