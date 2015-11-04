@@ -8,8 +8,8 @@
 $(function(){
 
 			/*评论框宽度*/
-			var $offsetW = $('.critic-content .user').width() + 22;
-			var $criticW = $('.critic-content .option').width();
+			var $offsetW = $('.critic-content .user').outerWidth() + 38;
+			var $criticW = $('.critic-content .option').innerWidth();
 			$('.critic .msg').outerWidth($criticW-$offsetW);
 			console.log($offsetW);
 	

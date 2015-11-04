@@ -74,6 +74,7 @@ html,body{
 	font-size:12px;
 	position: relative;
 	background: #f4f4f4;
+	min-height: 80px;
 }
 #top form{
 	margin-top: 20px;
@@ -145,7 +146,6 @@ html,body{
 	position: relative;
 	min-height: 100%;
 	background:#fff;
-	border:1px solid #ccc;
 }
 #content .nav-tabs li a{
 	border-radius: 0;
@@ -153,6 +153,7 @@ html,body{
 
 #content .passwords .checkbox{
 	display: inline-block;
+	line-height: 20px;
 }
 #content .passwords .forget{
 	float:right;
