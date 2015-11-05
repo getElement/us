@@ -19,6 +19,9 @@ html,body{
 p{
 	line-height: 20px;
 }
+a:hover, a:focus{
+	text-decoration: none;
+}
 .btn{
 	border-radius: 0;
 }
@@ -228,7 +231,7 @@ p{
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
-.section-md:last-child{
+.section-lg:last-child, .section-md:last-child{
 	margin-bottom:0;
 }
 .section-lg h4, .section-md h4{
@@ -298,6 +301,19 @@ p{
 	float:right;
 	color:#333 ;
 }
+.us-pagination{
+	width:100%;
+	height:70px;
+	position: relative;
+}
+.us-pagination ul{
+	float:left;
+	position: absolute;
+	margin:0;
+	margin-left: 50%;
+	left:-112px;
+	top:20px;
+}
 /*模块*/
 .g-section{
 	min-height:256px;
@@ -309,15 +325,29 @@ p{
 	}
 }
 .section-s{
+	margin-top: 15px;
+	margin-left:15px;
+	margin-right: 15px;
 	min-height: 200px;
 	background:#f4f4f4;
 }
 .note-section{
 	border: 1px solid #e9e9e9;
 	margin:0 15px;
+	padding-bottom: 15px;
+}
+.note-section .widget-title{
+	margin-bottom: 15px;
+}
+.note-write-wrap{
+	padding:0 15px;
+}
+.note-title{
+	border-bottom: 1px solid #e9e9e9;
+	margin-bottom: 15px;
 }
 .note-write{
-	padding:0 15px;
+	
 }
 .note-write textarea{
 	border-radius: 0;
@@ -406,7 +436,6 @@ p{
 	margin:10px 15px;
 	line-height: 24px;
 }
-
 .aiticle-title .g-avatar{
 	margin-right:15px;
 }

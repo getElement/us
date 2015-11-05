@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
   <title>留言墙</title>
   <meta charset="UTF-8" />
@@ -86,41 +86,12 @@
       </div>
     </div><!-- /.navbar-collapse -->
   </nav>
-  <nav class="navbar navbar-default g-navbar-s" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex3-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-  
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="container collapse navbar-collapse navbar-ex3-collapse">
-      <div class="container g-nav">
-        <ul class="nav navbar-nav">
-          <li class="bg1"><a href="#">首页</a></li>
-          <li><a href="#">闲互送</a></li>
-          <li><a href="#">闲互送</a></li>
-          <li><a href="#">聚便宜</a></li>
-        </ul>
-      </div>  
-    </div><!-- /.navbar-collapse -->
-  </nav>
   <!-- navbar end -->
 
   <!-- content start-->
   <div id="content" class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 g-content-left">
-        <div class="row">
-          <div class="note-write clearfix">
-            <textarea name="" id="input" class="form-control" rows="3" required="required"></textarea>
-            <button type="button" class="btn btn-default us-btn pull-right">提交留言</button>
-          </div>
-        </div>
         <div class="row">
           <div class="section-lg note-section clearfix">
             <h4 class="widget-title">留言墙</h4>
@@ -184,6 +155,15 @@
             </div>
           </div>
         </div>
+        <div class="row note-write-wrap">
+          <div class="note-title">
+            <h5>我来留言</h5>
+          </div>
+          <div class="note-write clearfix">
+            <textarea name="" id="input" class="form-control" rows="3" required="required"></textarea>
+            <button type="button" class="btn btn-default us-btn pull-right">提交留言</button>
+          </div>
+        </div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <ul class="share clearfix">
@@ -192,6 +172,7 @@
           <li style="background-position:-144px;"><a href="#"></a></li>
           <li style="background-position:-210px;"><a href="#"></a></li>
         </ul>
+        <h5 class="widget-title">主题</h5>
       </div>
     </div>
   </div>
@@ -215,6 +196,7 @@
   <!--end-Footer-part-->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script> 
+  <script src="js/us-main.js"></script> 
 </body>
 
 </html>

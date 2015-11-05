@@ -129,15 +129,24 @@ html,body{
 	border-radius: 0;
 	color:#000;
 }
-#code{
+.code{
 	position: absolute;
 	right:0;
-	top:1px;
 	border:none;
 	height:32px;
 	background:#ffd102;
 }
-
+#reg-code{
+	top:1px;
+}
+#log-code{
+	top:89px;
+}
+.code-img{
+	margin-top: 10px;
+	width:200px;
+	height:80px;
+}
 /*content-login*/
 #content{
 	margin-top: 10px;

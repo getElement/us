@@ -12,5 +12,9 @@ $(function(){
 			var $criticW = $('.critic-content .option').innerWidth();
 			$('.critic .msg').outerWidth($criticW-$offsetW);
 			console.log($offsetW);
+
+			/*底部分页居中*/
+			var $pW = $('.pagination').width();
+			$('.pagination').css('left',-$pW/2);
 	
 });
