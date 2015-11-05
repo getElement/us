@@ -204,6 +204,9 @@ a:hover, a:focus{
 	padding-top: 8px;
 	padding-bottom:8px;
 }
+.g-post a{
+	color:#333;
+}
 .us-title{
 	position: relative;
 }
