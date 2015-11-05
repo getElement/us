@@ -1041,7 +1041,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     padding: 6px 12px;
     margin-left: -1px;
     line-height: 1.42857143;
-    color: #337ab7;
+    color: #333;
     text-decoration: none;
     background-color: #fff;
     border: 1px solid #ddd
@@ -1064,10 +1064,10 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 .pagination>.active>span:focus,
 .pagination>.active>span:hover {
     z-index: 2;
-    color: #fff;
+    color: #333;
     cursor: default;
-    background-color: #ffd102;
-    border-color: #ffd102
+    background-color: #ffd503;
+    border-color: #ffd503
 }
 
 .pagination>.disabled>a,

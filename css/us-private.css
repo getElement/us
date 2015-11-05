@@ -298,6 +298,7 @@ a:hover, a:focus{
 	border-radius: 0;
 	border: none;
 	background: #ffd102;
+	color:#333;
 }
 .section .reserve{
 	display: inline-block;
