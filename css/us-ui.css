@@ -598,7 +598,8 @@
 
 @media (min-width:768px) {
     .navbar-left {
-        float: left!important
+        float: left!important;
+        margin-left: -15px
     }
     .navbar-right {
         float: right!important;
@@ -3425,7 +3426,9 @@ button.list-group-item-danger.active:hover {
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right,
 .carousel-control .icon-next,
-.carousel-control .icon-prev {
+.carousel-control .icon-prev,
+.carousel-control .icon-chevron-left, 
+.carousel-control .icon-chevron-right{
     position: absolute;
     top: 50%;
     z-index: 5;
@@ -3434,19 +3437,23 @@ button.list-group-item-danger.active:hover {
 }
 
 .carousel-control .glyphicon-chevron-left,
-.carousel-control .icon-prev {
+.carousel-control .icon-prev ,
+.carousel-control .icon-chevron-left {
     left: 50%;
     margin-left: -10px
 }
 
 .carousel-control .glyphicon-chevron-right,
-.carousel-control .icon-next {
+.carousel-control .icon-next,
+.carousel-control .icon-chevron-right {
     right: 50%;
     margin-right: -10px
 }
 
 .carousel-control .icon-next,
-.carousel-control .icon-prev {
+.carousel-control .icon-prev,
+.carousel-control .icon-chevron-left 
+.carousel-control .icon-chevron-right {
     width: 20px;
     height: 20px;
     font-family: serif;
